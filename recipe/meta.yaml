@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://gitlab.ifremer.fr/jobard/jobard_worker_dask/-/archive/{{ version }}/jobard_worker_dask-{{ version }}.tar.gz
-  sha256: 620fa86bd28e999467f9b02edc235b85fcff7f1c0aadb8d9d2276676934f9c98
+  sha256: c9c7e400c7353cb49e9214734a3f3757e4f24307e9552bd9cece97e26f59ab61
 
 
 build:
