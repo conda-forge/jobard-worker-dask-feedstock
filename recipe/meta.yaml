@@ -1,5 +1,5 @@
 {% set name = "jobard-worker-dask" %}
-{% set version = "1.0.3" %}
+{% set version = "1.1.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,11 +7,11 @@ package:
 
 source:
   url: https://gitlab.ifremer.fr/jobard/jobard_worker_dask/-/archive/{{ version }}/jobard_worker_dask-{{ version }}.tar.gz
-  sha256: c9c7e400c7353cb49e9214734a3f3757e4f24307e9552bd9cece97e26f59ab61
+  sha256: 6c9a3ae33c43586fa57324bbc9a5fed5d23b023c70d681c10b5d8af6fa3e72f2
 
 
 build:
-  number: 3
+  number: 0
   script: {{ PYTHON }} -m pip install . -vv
   noarch: python
   entry_points:
